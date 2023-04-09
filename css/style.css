@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+  transition: .5s;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 21px;
+}
+
+header {
+  background-color: #F5A623;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  position: -webkit-sticky; /* Safari & IE */
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  transform: translateY(-3px);
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+.about p {
+  margin-bottom: .8rem;
+}
+
+.services div{
+  margin-bottom: 1.3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.cont-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-icons img {
+  margin: 3rem 5rem;
+  transition: .5s;
+  width: 32px;
+}
+
+.cont-icons img:hover {
+  transform: scale(1.2);
+}
+
+.budget:hover {
+  background-color: #F5A623;
+  border-radius: 50%;
+}
+
+.check:hover {
+  background-color: green;
+  border-radius: 10px;
+}
+
+.building:hover {
+  background-color: lightgray;
+  border-radius: 3px;
+}
+
+.cta {
+  background-color: #F5A623;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+.cta h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.cta p {
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #F5A623;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer div {
+  margin-bottom: 1rem;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+footer img {
+  height: 2rem;
+  margin: 0 1rem;
+  transition: all 0.2s ease;
+}
+
+footer img:hover {
+  transform: scale(1.2);
+}
