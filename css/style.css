@@ -35,13 +35,6 @@ h1 {
   text-align: center;
 }
 
-nav {
-  width: 100%;
-  position: -webkit-sticky; /* Safari & IE */
-  position: sticky;
-  top: 0;
-}
-
 nav ul {
   list-style: none;
   display: flex;
@@ -102,12 +95,12 @@ img {
 
 .cont-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .cont-icons img {
-  margin: 3rem 5rem;
+  margin: 3rem 0;
   transition: .5s;
   width: 32px;
 }
